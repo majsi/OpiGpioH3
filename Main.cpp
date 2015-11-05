@@ -15,8 +15,10 @@ int main(int argc, char *argv[])
 {
 	OpiGpioH3Pin p;
 
+	// Set pin 37 - ( IO14 PA20 ) as OUTPUT
 	if (p.InitPin(37, OUTPUT) == true)
 	{
+		// Toggle pin 37
 		while (true)
 		{
 			p.Set();

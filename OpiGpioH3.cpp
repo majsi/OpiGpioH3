@@ -41,11 +41,8 @@ static const int OPI2_PINS[41]
 	-1, 199,	// GND,			UART1_RX
 };
 
-
-
 OpiGpioH3Pin::OpiGpioH3Pin()
 {
-	_gpio = NULL;
 };
 
 OpiGpioH3Pin::~OpiGpioH3Pin()
